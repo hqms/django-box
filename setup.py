@@ -41,3 +41,4 @@ setup(
         'Topic :: Software Development :: Template',
     ],
 )
+

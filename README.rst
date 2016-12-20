@@ -56,6 +56,3 @@ Usage
 
 3. Create a file in **BOX_TEMPLATE_PATH** within template directory with name same as template_name
 
-
-
-
