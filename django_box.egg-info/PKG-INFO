@@ -2,7 +2,7 @@ Metadata-Version: 1.1
 Name: django-box
 Version: 0.1.0
 Summary: Django template fragment
-Home-page: http://gitdev.detik.com/hakim/django-box
+Home-page: https://github.com/hqms/django-box.git
 Author: HQM
 Author-email: hakim@detik.com
 License: BSD

@@ -1,3 +1,4 @@
+MANIFEST.in
 README.rst
 setup.cfg
 setup.py
@@ -8,3 +9,4 @@ django_box.egg-info/SOURCES.txt
 django_box.egg-info/dependency_links.txt
 django_box.egg-info/not-zip-safe
 django_box.egg-info/top_level.txt
+django_box/templates/box_base.html

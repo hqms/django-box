@@ -12,7 +12,7 @@ setup(
     license='BSD',
     author='HQM',
     author_email='hakim@detik.com',
-    url='http://gitdev.detik.com/hakim/django-box',
+    url='https://github.com/hqms/django-box.git',
     keywords="django, django admin, template",
     packages=['django_box'],
     include_package_data=True,
