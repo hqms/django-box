@@ -1,4 +1,5 @@
 README.rst
+setup.cfg
 setup.py
 django_box/__init__.py
 django_box/apps.py

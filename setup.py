@@ -7,7 +7,7 @@ except IOError:
 
 setup(
     name='django_box',
-    version='0.0.2',
+    version='0.1.0',
     description='Django template fragment',
     license='BSD',
     author='HQM',
