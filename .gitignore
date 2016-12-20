@@ -1,4 +1,7 @@
-.venv
-.idea
+manage.py
 
-sample/*
+main
+frontend
+templates
+
+db.sqlite3
