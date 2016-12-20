@@ -7,14 +7,14 @@ except IOError:
 
 setup(
     name='django_box',
-    version='0.1',
+    version='0.0.2',
     description='Django template fragment',
     license='BSD',
     author='HQM',
     author_email='hakim@detik.com',
-    url='',
+    url='http://gitdev.detik.com/hakim/django-box',
     keywords="django, django admin, template",
-    packages=['box'],
+    packages=['django_box'],
     include_package_data=True,
     zip_safe=False,
     platforms=['any'],

@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: django-box
+Version: 0.0.2
+Summary: Django template fragment
+Home-page: http://gitdev.detik.com/hakim/django-box
+Author: HQM
+Author-email: hakim@detik.com
+License: BSD
+Description: UNKNOWN
+Keywords: django,django admin,template
+Platform: any
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Template
