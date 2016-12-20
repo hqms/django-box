@@ -40,7 +40,10 @@ class Box(object):
     context = {}
 
     def __init__(self, *args, **kwargs):
-        self.template = loader.get_template(self.template_path+'/'+self.template_name)
+        if self.template_name != 'box_base.html':
+            self.template_name = self.template_path+'/'+self.template_name
+
+        self.template = loader.get_template(self.template_name)
 
     def result(self):
         return self.template.render(BaseContext(self.context))
