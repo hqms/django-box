@@ -1,16 +1,3 @@
-	______ _                          ______              
-	|  _  (_)                         | ___ \             
-	| | | |_  __ _ _ __   __ _  ___   | |_/ / _____  __   
-	| | | | |/ _` | '_ \ / _` |/ _ \  | ___ \/ _ \ \/ /	
-	| |/ /| | (_| | | | | (_| | (_) | | |_/ / (_) >  <  
-	|___/ | |\__,_|_| |_|\__, |\___/  \____/ \___/_/\_\  
-	     _/ |             __/ |                          
-	    |__/             |___/                           
-														
-														
-	a simple django template fragment mechanism			
-														
-
 Django-Box
 ==========
 
@@ -28,7 +15,7 @@ Installing
 
    or via ``github``::
 
-    pip install -r git+
+    pip install -r git+https://github.com/hqms/django-box.git
 
 
 2. In your settings add  the following:
@@ -55,10 +42,10 @@ Usage
 
 1. Add box template tag in template (whether it is in regular template or base template)
 
-  .. code-block:: html+django
+   .. code-block:: html+django
 
-      <h1>This is box fragment</h1>
-      <p>{% box 'fragment1' %}</p>
+     <h1>This is box fragment</h1>
+     <p>{% box 'fragment1' %}</p>
 
 2. Create a **fragment1.py** in **BOX_MODULE_PATH** location, and create a class with same name of that fragment with Box class as it parent
 
