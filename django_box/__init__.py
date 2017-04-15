@@ -13,6 +13,10 @@ def autodiscover():
     autodiscover_modules('box', register_to=site)
 
 
+class BoxNotFoundException(BaseException):
+    pass
+
+
 @register.inclusion_tag('box_base.html', takes_context=True)
 def box(context, box_name, *args, **kwargs):
     try:
@@ -30,8 +34,10 @@ def box(context, box_name, *args, **kwargs):
         obj.context['args'] = kwargs
 
         return {'obj': obj}
+    except ImportError as e:
+        raise BoxNotFoundException
     except Exception as e:
-        raise
+        raise e
 
 
 class Box(object):
@@ -46,7 +52,7 @@ class Box(object):
         self.template = loader.get_template(self.template_name)
 
     def result(self):
-        return self.template.render(BaseContext(self.context))
+        return self.template.render(self.context)
 
     def get_context(self):
         if 'include_context' in self.context and self.context['include_context']:
